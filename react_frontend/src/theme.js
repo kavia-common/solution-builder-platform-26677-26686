@@ -1,17 +1,21 @@
 /**
- * Electric Orange theme helper utilities.
+ * Black & Yellow theme helper utilities.
+ *
+ * This file exports the theme tokens used by the UI, plus the wizard step labels.
  */
 
 export const theme = {
-  name: "Electric Orange",
+  name: "BlackYellow",
   colors: {
-    primary: "#2563EB",
-    accent: "#F59E0B",
-    success: "#F59E0B",
+    // Suggested tokens from the task request
+    primary: "#FACC15", // yellow
+    secondary: "#F59E0B", // amber
+    success: "#22C55E",
     error: "#EF4444",
-    background: "#f9fafb",
-    surface: "#ffffff",
-    text: "#111827",
+
+    background: "#0A0A0A",
+    surface: "#111111",
+    text: "#F5F5F5",
   },
 };
 

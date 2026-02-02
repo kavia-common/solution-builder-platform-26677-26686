@@ -272,7 +272,13 @@ function StepApprovals() {
             </div>
 
             <div>
-              <div className="card" style={{ border: "1px solid rgba(245, 158, 11, 0.35)", background: "rgba(245, 158, 11, 0.08)" }}>
+              <div
+                className="card"
+                style={{
+                  border: "1px solid rgba(245, 158, 11, 0.45)",
+                  background: "rgba(245, 158, 11, 0.12)",
+                }}
+              >
                 <div className="card-body">
                   <div style={{ fontWeight: 900 }}>Approval required</div>
                   <div className="muted" style={{ marginTop: 6 }}>
@@ -443,7 +449,7 @@ function WizardShell() {
             <div className="brand-mark" aria-hidden="true" />
             <div>
               <div className="brand-title">Solution Builder</div>
-              <div className="brand-subtitle">Offline-first wizard · Electric Orange</div>
+              <div className="brand-subtitle">Offline-first wizard · Black & Yellow</div>
             </div>
           </div>
 
